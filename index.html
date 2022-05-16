@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>معمل التاجي للكلوبات</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>😎 معمل التاجي للكلوبات</h1>
+    <div class="light-container">
+      <img id="light" src="pic_bulboff.gif" alt="light bullb" />
+      <p id="note">💡 !شغلني لك حيوان</p>
+    </div>
+    <div>
+      <button class="off" onclick="document.getElementById('light').src='pic_bulboff.gif', document.getElementById('note').style.top='100px'">
+        ايقاف
+      </button>
+      <button class="on" onclick="document.getElementById('light').src='pic_bulbon.gif', document.getElementById('note').style.top='-300px'">
+        تشغيل
+      </button>
+    </div>
+  </body>
+</html>
